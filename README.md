@@ -191,3 +191,6 @@ __IMPORTANTE__: No está permitido utilizar los filtrados, ordenamientos y pagin
 - [ ] Al menos tener un modelo de la base de datos con sus tests respectivos
 
 # REALIZACION DEL PROYECTO
+<p align="left">
+  <img height="200" src="./CountriesCapture.PNG" />
+</p>
