@@ -1,0 +1,32 @@
+.countrys-body {
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.countrys-body-Datos{
+    margin-top: 10px;
+  width:500px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+position: relative;
+background-image: url("../../imagenes/Tierra.jpg"); 
+background-size: cover;
+
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-shadow: 2px 2px 20px #ff3c00;
+}

@@ -1,0 +1,114 @@
+
+form{
+	width:500px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+  background-image: url("../../imagenes/fondoForm.jpg");
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+background-size: cover;
+position: relative;
+top: 30px;
+}
+
+form label{
+  margin-top:16px;
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+.paisesAgregados {
+  margin-top:10px;
+  display:inline-block;
+  padding: 16px;
+  width:40px;
+  font-size:10px;
+}
+
+.paisesAgregados:hover{
+  color: red;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+.addCountry {
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	background-color:#fc8d83;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:3px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.addCountry:hover {
+	background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+	background-color:#e4685d;
+}
+.addCountry:active {
+	position:relative;
+	top:1px;
+}
+
+
+.boton-home {
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:10px;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:6px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+}
+.boton-home:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+.boton-home:active {
+	position:relative;
+	top:1px;
+}
+
+        

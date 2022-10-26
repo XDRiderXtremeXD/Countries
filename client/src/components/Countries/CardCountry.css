@@ -1,0 +1,85 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+.Otoño{
+  margin-top: 10px;
+  width:500px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+background-size: cover;
+position: relative;
+background-image: url("../../imagenes/Otoño.jpg"); 
+}
+.Invierno{
+  margin-top: 10px;
+  width:500px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+background-size: cover;
+position: relative;
+  background-image: url("../../imagenes/Invierno.jpg"); 
+}
+.Verano{
+  margin-top: 10px;
+  width:500px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+background-size: cover;
+position: relative;
+  background-image: url("../../imagenes/Verano.jpg"); 
+}
+.Primavera{
+  margin-top: 10px;
+  width:500px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.84);
+background-size: cover;
+position: relative;
+  background-image: url("../../imagenes/Primavera.jpg"); 
+}
