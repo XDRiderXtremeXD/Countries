@@ -1,10 +1,12 @@
 // APIKEY = 1bc6c554
-
+const API_URL = process.env.REACT_APP_API_URL;
 
 export function getcountries(nombrePais,pagina){
+    console.log(API_URL);
+
     return function (dispatch){
-      let getData=nombrePais?`http://localhost:3001/countries/?name=${nombrePais}`:
-      `http://localhost:3001/countries/`
+      let getData=nombrePais?`${API_URL}/countries/?name=${nombrePais}`:
+      `${API_URL}/countries/`
 
     return fetch (getData)
       .then(res => res.json())
@@ -16,7 +18,7 @@ export function getcountries(nombrePais,pagina){
 
 export function getDetailsCountry(id){
     return function (dispatch){
-      let url=`http://localhost:3001/countries/${id}`
+      let url=`${API_URL}/countries/${id}`
     return fetch (url)
       .then(res => res.json())
       .then(json =>{
@@ -48,7 +50,7 @@ export function cambioFiltro(e,propiedad){
 
 
 export function postData(data){
-var url = 'http://localhost:3001/activities';
+var url = '${API_URL}/activities';
           fetch(url, {
           method: 'POST', // or 'PUT'
           body: JSON.stringify(data), // data can be `string` or {objec}!
