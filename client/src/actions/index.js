@@ -50,18 +50,21 @@ export function cambioFiltro(e,propiedad){
 
 
 export function postData(data){
-var url = '${API_URL}/activities';
-          fetch(url, {
-          method: 'POST', // or 'PUT'
-          body: JSON.stringify(data), // data can be `string` or {objec}!
-          headers:{
-          'Content-Type': 'application/json'
-          }
-          }).then(res => res.json())
-          .catch(error => { throw new Error('Error',error)})
-          .then(response => console.log('Success:', response));
-    return
- }
+  var url = `${API_URL}/activities`; // ✅ Usar backticks
+
+  fetch(url, {
+    method: 'POST',
+    body: JSON.stringify(data),
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  })
+  .then(res => res.json())
+  .catch(error => { throw new Error('Error', error) })
+  .then(response => console.log('Success:', response));
+
+  return;
+}
 
 /*
         return axios.get(`http://www.omdbapi.com/?apikey=1bc6c554&s=${titulo}`)
