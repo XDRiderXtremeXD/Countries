@@ -16,7 +16,7 @@ router.get("/",async(req,res,next)=>{
       paises=await Country.findAll();
 
       if(!paises.length){
-      const api = (await axios.get("https://restcountries.com/v3.1/all")).data;  
+      const api = (await axios.get("https://restcountries.com/v3.1/independent?status=true")).data;  
       for(let e of api){
         var find = await Country.findOne({where:{nombre: e.name.common}})
         if(e.capital!=undefined)
