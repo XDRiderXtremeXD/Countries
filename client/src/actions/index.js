@@ -3,6 +3,7 @@ const API_URL = process.env.REACT_APP_API_URL;
 
 export function getcountries(nombrePais,pagina){
     console.log("URL ",API_URL);
+    console.log("Prueba");
     return function (dispatch){
       let getData=nombrePais?`${API_URL}/countries/?name=${nombrePais}`:
       `${API_URL}/countries/`
